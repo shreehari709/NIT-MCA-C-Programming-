@@ -1,10 +1,9 @@
 //Write a C program to compute the perimeter and area of a circle with a radius of 6 inches.
 #include<stdio.h>
 int main(){
-	int r=6;
-	int a,p;
-	p=2*(3.14)*r;
-	a=2*(3.14)*r*r;
-	printf("Area of Circle = %d and \nPerimeter of Circle = %d\n",a,p);
+	float radius=6;
+	float perimeter=2*(3.14)*radius;
+	float area=2*(3.14)*radius*radius;
+	printf("Area of Circle = %f and \nPerimeter of Circle = %f\n",area,perimeter);
 	return 0;
 }
