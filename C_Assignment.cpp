@@ -219,7 +219,7 @@ int main() {
     return 0;
 }*/
 //2. C Program to Find Sum & Average of n Numbers in Array
-#include <stdio.h>
+/*#include <stdio.h>
 
 int main() {
     int n, arr[100], sum = 0;
@@ -234,7 +234,68 @@ int main() {
     average = (float)sum / n;
     printf("Sum = %d, Average = %.2f\n", sum, average);
     return 0;
+}*/
+// C Program to Count Even & Odd Numbers in Array
+/*#include <stdio.h>
+
+int main() {
+    int n, arr[100], even = 0, odd = 0;
+
+    printf("Enter the number of elements: ");
+    scanf("%d", &n);
+
+    printf("Enter %d elements:\n", n);
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+        if (arr[i] % 2 == 0)
+            even++;
+        else
+            odd++;
+    }
+
+    printf("Even numbers: %d, Odd numbers: %d\n", even, odd);
+
+    return 0;
+}*/
+//4.	C Program to Find Largest Element From Array
+/*#include <stdio.h>
+int main() {
+    int n, arr[100], largest;
+    printf("Enter the number of elements: ");
+    scanf("%d", &n);
+    printf("Enter %d elements:\n", n);
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+    largest = arr[0];
+    for (int i = 1; i < n; i++) {
+        if (arr[i] > largest)
+            largest = arr[i];
+    }
+    printf("Largest element: %d\n", largest);
+    return 0;
+}*/
+//5.	C Program to Find Smallest Element From Array
+#include <stdio.h>
+int main() {
+    int n, arr[100], smallest;
+    printf("Enter the number of elements: ");
+    scanf("%d", &n);
+    printf("Enter %d elements:\n", n);
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+    smallest = arr[0];
+    for (int i = 1; i < n; i++) {
+        if (arr[i] < smallest)
+            smallest = arr[i];
+    }
+    printf("Smallest element: %d\n", smallest);
+    return 0;
 }
+
+
+
 
 
 
